@@ -1,5 +1,5 @@
 {% set name = "robotframework-stacktrace" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/robotframework-stacktrace-{{ version }}.tar.gz
-  sha256: e64e6da2ff3a3b5dc66f4f8f03c26c131682578a0b3c8458ea41fa58d4a7c4dd
+  sha256: e96cb36e7e9ab55104c1f7d3606249a109e0a4c3bb6a0e294bff07d54ee6f6a5
 
 build:
   number: 0
